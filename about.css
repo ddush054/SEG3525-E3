@@ -1,0 +1,27 @@
+/* about.css */
+.logo-search-row {
+    height: 100px;
+  }
+  
+  .logo-img {
+    margin-top: -3%;
+    max-height: 108px;
+  }
+  
+  .description-history {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .agents-section .agent img {
+    width: 100%; /* Ensure the image scales properly */
+    max-width: 200px; /* Set the desired maximum width */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .agent figcaption {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.2rem;
+  }
+  

@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luxe Wheels Gallery</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="logo-search-row py-3 bg-light">
+        <div class="container">
+          <div class="row align-items-left">
+            <div class="col-md-6 text-left">
+              <a
+                href="/C:\Users\dandu\OneDrive\Documents\SEG3525\Projet1-Etape3\index.html"
+              >
+                <img
+                  src="file:///C:/Users/dandu/OneDrive/Pictures/Screenshots/Screenshot%20(118).png"
+                  alt="Luxe Wheels Gallery Logo"
+                  class="logo-img"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="/C:\Users\dandu\OneDrive\Documents\SEG3525\Projet1-Etape3\inventory.html"
+              >Inventaire</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="/C:\Users\dandu\OneDrive\Documents\SEG3525\Projet1-Etape3\approval.html"
+              >Soyez approuvés</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="/C:\Users\dandu\OneDrive\Documents\SEG3525\Projet1-Etape3\about.html"
+              >À propos de nous</a
+            >
+          </li>
+          <div class="col-md-6 text-right">
+            <form class="form-inline my-20 my-lg-0 justify-content-end pr-4">
+              <input
+                class="form-control"
+                type="search"
+                placeholder="Recherche"
+                aria-label="Search"
+              />
+            </form>
+          </div>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Logo and Search Row -->
+    <div class="logo-search-row py-3 bg-light">
+      <!--  <div class="container">
+        <div class="row align-items-left">
+           <div class="col-md-6 text-left">
+            <img
+              src="file:///C:/Users/dandu/OneDrive/Pictures/Screenshots/Screenshot%20(118).png"
+              alt="Luxe Wheels Gallery Logo"
+              class="logo-img"
+            />
+          </div> 
+          <div class="col-md-6 text-right">
+            <form class="form-inline my-20 my-lg-0 justify-content-end pr-4">
+              <input
+                class="form-control"
+                type="search"
+                placeholder="Recherche"
+                aria-label="Search"
+              />
+            </form>
+          </div>
+        </div>
+      </div> -->
+    </div>
+
+    <!-- Main Banner -->
+    <div class="banner text-center text-white">
+      <div class="overlay">
+        <h1>Luxe Wheels Gallery</h1>
+        <p>
+          Bienvenue chez Luxe Wheels Gallery, où sophistication et performance
+          se rencontrent.
+        </p>
+        <a
+          href="/C:\Users\dandu\OneDrive\Documents\SEG3525\Projet1-Etape3\inventory.html"
+          class="btn btn-primary"
+          >Démarrer</a
+        >
+      </div>
+    </div>
+
+    <!-- Special Offers -->
+    <div class="container mt-5">
+      <h2 class="text-center">LES OFFRES SPECIALES DE CE MOIS</h2>
+      <div class="row-mt-4 text-center">
+        <p>Cliquez sur une des options pour réserver votre place</p>
+      </div>
+      <div class="row mt-4">
+        <!-- <div class="col">
+          <div class="filter-search text-center">
+            <div class="dropdown d-inline-block mx-2">
+              <button
+                class="btn btn-secondary dropdown-toggle"
+                type="button"
+                id="dropdownCarrosserie"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Carrosserie
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownCarrosserie">
+                <a class="dropdown-item" href="#">Coupe</a>
+                <a class="dropdown-item" href="#">Sedan</a>
+                <a class="dropdown-item" href="#">Truck</a>
+                <a class="dropdown-item" href="#">SUV / Crossover</a>
+                <a class="dropdown-item" href="#">Other / Not sure</a>
+              </div>
+            </div>
+            <div class="dropdown d-inline-block mx-2">
+              <button
+                class="btn btn-secondary dropdown-toggle"
+                type="button"
+                id="dropdownAnneeModele"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Année Modèle
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownAnneeModele">
+                <a class="dropdown-item" href="#">2010 - 2024</a>
+                <a class="dropdown-item" href="#">2000 - 2010</a>
+                <a class="dropdown-item" href="#"> > 2000</a>
+              </div>
+            </div>
+            <div class="dropdown d-inline-block mx-2">
+              <button
+                class="btn btn-secondary dropdown-toggle"
+                type="button"
+                id="dropdownMarque"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Marque
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMarque">
+                <a class="dropdown-item" href="#">Audi</a>
+                <a class="dropdown-item" href="#">BMW</a>
+                <a class="dropdown-item" href="#">Cadillac</a>
+                <a class="dropdown-item" href="#">Dodge</a>
+                <a class="dropdown-item" href="#">Genesis</a>
+                <a class="dropdown-item" href="#">Jaguar</a>
+                <a class="dropdown-item" href="#">Jeep</a>
+                <a class="dropdown-item" href="#">Land-Rover</a>
+                <a class="dropdown-item" href="#">Lincoln</a>
+                <a class="dropdown-item" href="#">Lamborghini</a>
+                <a class="dropdown-item" href="#">Mercedes</a>
+                <a class="dropdown-item" href="#">Rolls Royce</a>
+                <a class="dropdown-item" href="#">Porsche</a>
+                <a class="dropdown-item" href="#">Tesla</a>
+              </div>
+            </div>
+            <button class="btn btn-dark">Recherche</button>
+          </div>
+        </div> -->
+      </div>
+      <!-- Car Images -->
+      <div class="row mt-4 text-center">
+        <div class="col-md-3">
+          <div class="carImage">
+            <a
+              href="/C:/Users/dandu/OneDrive/Documents/SEG3525/Projet1-Etape3/approval.html"
+            >
+              <img
+                src="file:///C:/Users/dandu/OneDrive/Pictures/Screenshots/Screenshot%20(119).png"
+                class="img-fluid"
+                alt="Royce Phantom"
+              />
+            </a>
+
+            <figcaption>
+              <strong>ROYCE PHANTOM - CAD $275 000</strong>
+            </figcaption>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="carImage">
+            <a
+              href="/C:/Users/dandu/OneDrive/Documents/SEG3525/Projet1-Etape3/approval.html"
+            >
+              <img
+                src="file:///C:/Users/dandu/OneDrive/Pictures/Screenshots/Screenshot%20(120).png"
+                class="img-fluid"
+                alt="Serie 4"
+              />
+            </a>
+            <figcaption>
+              <strong>SERIE 4 M440I XDRIVE 3.0 - CAD $105 000</strong>
+            </figcaption>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="carImage">
+            <a
+              href="/C:/Users/dandu/OneDrive/Documents/SEG3525/Projet1-Etape3/approval.html"
+            >
+              <img
+                src="file:///C:/Users/dandu/OneDrive/Pictures/Screenshots/Screenshot%20(121).png"
+                class="img-fluid"
+                alt="Benz G Class"
+              />
+            </a>
+            <figcaption>
+              <strong>BENZ G CLASS AMG G 63 - CAD $250 000</strong>
+            </figcaption>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="carImage">
+            <a
+              href="/C:/Users/dandu/OneDrive/Documents/SEG3525/Projet1-Etape3/approval.html"
+            >
+              <img
+                src="file:///C:/Users/dandu/OneDrive/Pictures/Screenshots/Screenshot%20(122).png"
+                class="img-fluid"
+                alt="911 Carrera"
+              />
+            </a>
+            <figcaption>
+              <strong>911 CARRERA CABRIOLET - CAD $195 000</strong>
+            </figcaption>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="carImage">
+            <a
+              href="/C:/Users/dandu/OneDrive/Documents/SEG3525/Projet1-Etape3/approval.html"
+            >
+              <img
+                src="file:///C:/Users/dandu/OneDrive/Pictures/Screenshots/Screenshot%202024-06-04%20104036.png"
+                class="img-fluid"
+                alt="Lamborghini Urus"
+              />
+            </a>
+            <figcaption>
+              <strong> LAMBORGHINI URUS PERFORMANTE - CAD $340 000</strong>
+            </figcaption>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="carImage">
+            <a
+              href="/C:/Users/dandu/OneDrive/Documents/SEG3525/Projet1-Etape3/approval.html"
+            >
+              <img
+                src="file:///C:/Users/dandu/OneDrive/Pictures/Screenshots/Screenshot%202024-06-04%20105206.png"
+                class="img-fluid"
+                alt="Mercedes Maybach"
+              />
+            </a>
+            <figcaption>
+              <strong> MERCEDES-MAYBACH GLS600 - CAD $325 000</strong>
+            </figcaption>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="carImage">
+            <a
+              href="/C:/Users/dandu/OneDrive/Documents/SEG3525/Projet1-Etape3/approval.html"
+            >
+              <img
+                src="file:///C:/Users/dandu/OneDrive/Pictures/Screenshots/Screenshot%202024-06-04%20105442.png"
+                class="img-fluid"
+                alt="Cadillac Escalade"
+              />
+            </a>
+            <figcaption>
+              <strong> CADILLAC ESCALADE ESV - CAD $145 000</strong>
+            </figcaption>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="carImage">
+            <a
+              href="/C:/Users/dandu/OneDrive/Documents/SEG3525/Projet1-Etape3/approval.html"
+            >
+              <img
+                src="file:///C:/Users/dandu/OneDrive/Pictures/Screenshots/Screenshot%202024-06-04%20105724.png"
+                class="img-fluid"
+                alt="Audi"
+              />
+            </a>
+            <figcaption>
+              <strong> AUDI RS7 - CAD $110 000</strong>
+            </figcaption>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
+  </body>
+</html>

@@ -1,0 +1,74 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav ul { 
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+} 
+ 
+nav li { 
+    display: inline-block; 
+    margin-right: 20px; /* Adjust the value as needed */ 
+} 
+
+.logo-search-row {
+    /* You can adjust the height of this row */
+    height: 100px;
+}
+
+.logo-img {
+    
+    /* Move logo to the left more*/
+    margin-top: -3%;
+    max-height: 110px; /* Adjust logo size as needed */
+}
+
+.banner {
+    background-image: url('file:///C:/Users/dandu/OneDrive/Pictures/Screenshots/Screenshot%20(123).png'); /* Replace with your banner image path */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.banner .overlay {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    border-radius: 5px;
+}
+
+.banner h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.banner p {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.filter-search select {
+    width: auto;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.carImage img {
+    max-height: 200px; /* Adjust this value to change the height of the car images */
+    object-fit: cover; /* Ensure the images cover the area without distortion */
+}
+
+.carImage figcaption {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    text-align: center;
+}

@@ -1,0 +1,11 @@
+.logo-search-row {
+    /* You can adjust the height of this row */
+    height: 100px;
+}
+
+.logo-img {
+    
+    /* Move logo to the left more*/
+    margin-top: -3%;
+    max-height: 110px; /* Adjust logo size as needed */
+}

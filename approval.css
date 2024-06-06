@@ -1,0 +1,49 @@
+body {
+    background-color: #f8f9fa;
+}
+.navbar {
+    margin-bottom: 20px;
+}
+.logo-search-row {
+    /* You can adjust the height of this row */
+    height: 100px;
+}
+
+.logo-img {
+    
+    /* Move logo to the left more*/
+    margin-top: -3%;
+    max-height: 108px; /* Adjust logo size as needed */
+}
+.form-section {
+    background-color: #e9ecef;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+select.form-control {
+    height: calc(3rem + 2px);
+    font-size: 1rem;
+}
+.form-group label {
+    font-weight: bold;
+}
+.form-control {
+    height: calc(2.5rem + 2px);
+    font-size: 1rem;
+}
+.btn-block {
+    background-color: #6c757d;
+    color: white;
+    padding: 10px;
+    font-size: 1.2em;
+    border: none;
+}
+.btn-block:hover {
+    background-color:#6c757d;
+}
